@@ -1,20 +1,23 @@
+//Creating class named "Employeeone" and void method in same java file. 
+//Initalizing the object in other main class and executing the value.  
 package classandobject;
 
 public class Employeeone {
-	int eid;
+	int id;
 	String name;
 	double salary;
 	String jobtitle;
 
-
-	void display() {
-	System.out.println("eid" +eid);
+//Method--
+	void display() 
+	{
+	System.out.println(id);
 	System.out.println(name);
 	System.out.println(salary);
 	System.out.println(jobtitle);
 	
 	}
-	
+	//Method--
 	void bonus() {
 		System.out.println((salary * 10)/100);
 	}

@@ -5,14 +5,16 @@ public class LearningClassandMethod {
 	String name;
 	 double Salary;
 
-    void initalValue(int i,String name, double Salary) {
+    void intialvalue(int i,String name, double Salary) {
 	id =i;
 	name= " Mark";
-	Salary= 67000;
+	Salary= 67000d;
 }
     
     void displayValue() {
-	System.out.println("Printing the name "+name);
+    	System.out.println("Printing the ID:" +id);	
+	    System.out.println("Printing the name:" +name);
+	    System.out.println("Printing the name:" +Salary);
     }
     
     
